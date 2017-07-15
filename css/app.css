@@ -1,0 +1,135 @@
+.about{
+  margin: 30px auto 60px;
+}
+.space-around {
+  padding: .5rem;
+}
+.gallery {
+  margin-bottom: 30px;
+}
+.gallery .spacer {
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*margin-bottom: 15px;*/
+}
+.img-1 {
+  background-image: url(../imgs/casa-rio-daprata-1.jpg);
+}
+.img-2 {
+  background-image: url(../imgs/casa-rio-daprata-2.jpg);
+}
+.img-3 {
+  background-image: url(../imgs/casa-rio-daprata-3.jpg);
+}
+.img-4 {
+  background-image: url(../imgs/casa-rio-daprata-4.jpg);
+}
+.img-5 {
+  background-image: url(../imgs/casa-rio-daprata-5.jpg);
+}
+.img-6 {
+  background-image: url(../imgs/casa-rio-daprata-6.jpg);
+}
+.img-7 {
+  background-image: url(../imgs/casa-rio-daprata-9.jpg);
+}
+.img-8 {
+  background-image: url(../imgs/casa-rio-daprata-8.jpg);
+}
+.bw {
+  filter: grayscale(100%);
+}
+.bw:hover {
+  filter: grayscale(0);
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+nav img {
+  max-width: 120px;
+}
+.bookings img {
+  max-width: 80px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0!important;
+}
+nav {
+  max-width: none!important;
+  margin: 0!important;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+nav a {
+  margin: 0!important;
+}
+nav .button {
+  background-color: white;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  margin-right:  10px;
+  color: black;
+}
+nav .button:hover {
+}
+nav .button:active {
+}
+
+.menu-container{
+  z-index: 1;
+  background-color: white;
+}
+
+.header-placeholder {
+  height: 100vh;
+  z-index: -1;
+  width: 100%;
+  position: relative;
+}
+
+.site-wrap, .site-container {
+  position: relative;
+  width: 100%;
+  background-color: white;
+}
+
+.header-fixed {
+  position: fixed;
+  background-image: url(../imgs/casa-rio-daprata-header.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  height: 100vh;
+  min-width: 100vw;
+  width: auto;
+  margin-bottom: 0px;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+.header-fixed h1 {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.contact {
+  padding-bottom: 80px;
+}
+#map{
+  min-height:400px
+}
